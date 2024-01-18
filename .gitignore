@@ -2,3 +2,5 @@
 **/Lib
 **/Scripts
 **/Include
+**/venv
+**/__pycache__

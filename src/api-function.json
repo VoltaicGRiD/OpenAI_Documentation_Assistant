@@ -34,18 +34,6 @@
     {
         "type": "function",
         "function": {
-            "name": "get_readme",
-            "description": "Get the content of the README.md file",
-            "parameters": {
-                "type": "object",
-                "properties": {},
-                "required": []
-            }
-        }
-    },
-    {
-        "type": "function",
-        "function": {
             "name": "add_readme",
             "description": "Creates a README.md file. Returns 'false' if a file already exists.",
             "parameters": {
@@ -84,7 +72,7 @@
     {
         "type": "function",
         "function": {
-            "name": "add_thread-safe_warning",
+            "name": "add_thread_safe_warning",
             "description": "Add documentation to a specified line in a class file warning that the code is not thread safe",
             "parameters": {
                 "type": "object",
@@ -113,7 +101,7 @@
     {
         "type": "function",
         "function": {
-            "name": "add_bad-practice_warning",
+            "name": "add_bad_practice_warning",
             "description": "Add documentation to a specified line in a class file warning that the code is bad practice",
             "parameters": {
                 "type": "object",
